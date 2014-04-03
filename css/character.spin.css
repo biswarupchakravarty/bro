@@ -1,22 +1,22 @@
-.bro-character-spin {
+.bro-character-spin:hover {
   animation: bro-character-spin 2s infinite;
   -webkit-animation: bro-character-spin 2s linear infinite;
   -moz-animation: bro-character-spin 2s linear infinite;
   -o-animation: bro-character-spin 2s linear infinite;
 }
-.bro-character-spin.slow {
+.bro-character-spin.slow:hover {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
   -o-animation-duration: 3s;
   animation-duration: 3s;
 }
-.bro-character-spin.medium {
+.bro-character-spin.medium:hover {
   -webkit-animation-duration: 2s;
   -moz-animation-duration: 2s;
   -o-animation-duration: 2s;
   animation-duration: 2s;
 }
-.bro-character-spin.fast {
+.bro-character-spin.fast:hover {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -o-animation-duration: 1s;
