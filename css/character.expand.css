@@ -1,8 +1,13 @@
 .bro-character-expand.bro-split-into-chars .bro-char:hover {
-  -webkit-transform: scale(2);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+  transition: .15s linear;
+}
+.bro-character-expand.bro-split-into-chars .bro-char:hover + .bro-char {
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
-  transition: 0.5s linear;
+  transition: .25s linear;
 }
 .bro-character-expand.bro-split-into-chars .bro-char {
-  transition: 3.5s linear;
+  transition: 0.3s linear;
 }
