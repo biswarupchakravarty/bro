@@ -1,11 +1,15 @@
 .bro-character-spin.bro-split-into-chars .bro-char:nth-child(2n + 1):hover {
   -webkit-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
 }
 .bro-character-spin.bro-split-into-chars .bro-char:hover {
   transition: .5s linear;
 }
 .bro-character-spin.bro-split-into-chars .bro-char:nth-child(2n):hover {
   -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
   transition: .5s linear;
 }
 .bro-character-spin.bro-split-into-chars .bro-char {
