@@ -1,0 +1,14 @@
+.bro-character-flip.bro-split-into-chars .bro-char:nth-child(2n + 1):hover {
+  -webkit-transform: rotateY(-360deg);
+}
+.bro-character-flip.bro-split-into-chars .bro-char:hover {
+  transition: .1s linear;
+}
+.bro-character-flip.bro-split-into-chars .bro-char:nth-child(2n):hover {
+  -webkit-transform: rotateY(360deg);
+  transition: .1s linear;
+}
+.bro-character-flip.bro-split-into-chars .bro-char {
+  transition: .3s linear;
+  transform-style: preserve-3d;
+}
