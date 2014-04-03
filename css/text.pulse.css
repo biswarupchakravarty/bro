@@ -1,0 +1,17 @@
+.bro-text-pulse.bro-split-into-chars:hover .bro-char {
+  -webkit-animation: bro-text-pulse 1.5s ease-in-out infinite;
+  transition: .15s linear;
+}
+.bro-text-pulse.bro-split-into-chars .bro-char {
+  transition: 0.3s linear;
+}
+@-webkit-keyframes bro-text-pulse {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
