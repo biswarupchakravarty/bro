@@ -1,0 +1,48 @@
+.bro-character-spin {
+  animation: bro-character-spin 2s infinite;
+  -webkit-animation: bro-character-spin 2s linear infinite;
+  -moz-animation: bro-character-spin 2s linear infinite;
+  -o-animation: bro-character-spin 2s linear infinite;
+}
+.bro-character-spin.slow {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+}
+.bro-character-spin.medium {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+}
+.bro-character-spin.fast {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes bro-character-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes bro-character-spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes bro-character-spin {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes bro-character-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
